@@ -68,6 +68,11 @@ const ContactForm = ({ contacts, onSubmit }) => {
 };
 
 ContactForm.propTypes = {
+  contacts: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
   onSubmit: PropTypes.func.isRequired,
 };
 

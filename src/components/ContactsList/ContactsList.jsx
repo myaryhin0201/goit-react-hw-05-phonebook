@@ -15,6 +15,7 @@ const useStyles = createUseStyles({
 
 const ContactsList = ({ contacts, onDeleteContact }) => {
   const classes = useStyles();
+
   return (
     <ul className={classes.ContactsList}>
       {contacts.length !== 0 ? (
@@ -40,6 +41,7 @@ ContactsList.propTypes = {
       id: PropTypes.string.isRequired,
     }),
   ).isRequired,
+  onDeleteContact: PropTypes.func.isRequired,
 };
 
 const getFilteredContacts = (allItems, filter) => {

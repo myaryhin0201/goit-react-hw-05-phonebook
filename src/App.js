@@ -1,12 +1,12 @@
 // Компоненты
 import Phonebook from './components/Phonebook';
-import Layout from './components/Layouts';
+import Container from './components/Container';
 
 function App() {
   return (
-    <Layout>
+    <Container>
       <Phonebook />
-    </Layout>
+    </Container>
   );
 }
 
