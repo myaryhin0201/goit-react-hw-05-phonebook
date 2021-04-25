@@ -41,7 +41,6 @@ ContactsList.propTypes = {
       id: PropTypes.string.isRequired,
     }),
   ).isRequired,
-  onDeleteContact: PropTypes.func.isRequired,
 };
 
 const getFilteredContacts = (allItems, filter) => {

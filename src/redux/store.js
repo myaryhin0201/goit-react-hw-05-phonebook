@@ -1,12 +1,3 @@
-// import { createStore, combineReducers } from 'redux';
-// import { combineReducers } from 'redux';
-// import { composeWithDevTools } from 'redux-devtools-extension';
-// const rootReducer = combineReducers({
-//   contacts: contactsReducer,
-// });
-
-// const store = createStore(rootReducer, composeWithDevTools());
-
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
 import {
